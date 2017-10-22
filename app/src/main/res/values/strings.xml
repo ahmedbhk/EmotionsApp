@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">ZaiedHospital</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_admin">Doctor Space</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="gender_prompt">Choose a gender</string>
+
+    <string-array name="gender_arrays">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+    <string name="patient_prompt">Choose a patient</string>
+
+    <string-array name="patient_arrays">
+        <item>choose a patient</item>
+        <item>aziz lahmer</item>
+        <item>amina fekhet</item>
+        <item>sami el fehri</item>
+        <item>el arbi nasra</item>
+    </string-array>
+
+    <string name="nurse_prompt">Choose a nurse</string>
+
+    <string-array name="nurse_arrays">
+        <item>choose a nurse</item>
+        <item>saiida</item>
+        <item>samira</item>
+        <item>masouda</item>
+        <item>jamila</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

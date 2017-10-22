@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:id="@+id/moodItem"
+    android:clickable="true"
+    android:focusable="true"
+    >
+
+
+    <ImageView
+        android:id="@+id/moodImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_dialog_info"
+        app:srcCompat="@drawable/angry"
+        />
+    <TextView
+        android:id="@+id/moodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEDIUM"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:layout_marginLeft="12dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_marginRight="10dp"
+        >
+        <TextView
+            android:id="@+id/moodLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banque"
+            android:textColor="@android:color/black"
+
+            />
+
+        <TextView
+            android:id="@+id/moodDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10/05/2018   20.12.12.51"
+            android:textColor="@android:color/black"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

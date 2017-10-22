@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:id="@+id/forDialog">
+    <SeekBar
+        android:id="@+id/level2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="2"
+        android:progress="1"
+        android:layout_weight="5"/>
+    <TextView
+        android:id="@+id/textLevel2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:text="MEDIUM"
+        android:textSize="15dp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:lines="3"
+        android:maxLines="5"
+        android:minLines="1"
+        android:scrollbars="vertical"
+        android:id="@+id/explainationEditText"
+        android:hint="Could you explain your choice?"
+        />
+</LinearLayout>
